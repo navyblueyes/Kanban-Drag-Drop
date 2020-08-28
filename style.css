@@ -14,9 +14,9 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
+  background: url("./working.webp");
   background-size: cover;
-  background-position: 50% 60%;
+  background-position: 50% 10%;
   background-attachment: fixed;
   color: white;
   font-family: Quicksand, sans-serif;
@@ -50,7 +50,7 @@ ul {
 
 /* Columns */
 .drag-column {
-
+  flex: 1;
   margin: 0 10px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
