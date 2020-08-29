@@ -16,7 +16,7 @@ body {
   margin: 0;
   background: url("./working.webp");
   background-size: cover;
-  background-position: 50% 10%;
+  background-position: center 20%;
   background-attachment: fixed;
   color: white;
   font-family: Quicksand, sans-serif;
@@ -224,8 +224,10 @@ ul {
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
+  
   body {
     overflow-y: auto;
+    background-position: center center;
   }
 
   .drag-container {
